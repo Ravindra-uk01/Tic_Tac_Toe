@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family:panther;
+    src: url(fonts/PantheraRegular-MVZ9J.ttf);
+  }
+
+
+body {
+    background: url(img/marvel-vs-dc-1u.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    background-color: black;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 5%;
+    padding: 5px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.grid {
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 450px;
+    height: 450px;
+    border-radius: 5%;
+   
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    width: 140px;
+    height: 140px;
+    border: 2px solid white;
+    cursor: pointer;
+    padding-top: 10px;
+
+}
+.col:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.br-0{
+    border-right: 0;
+}
+
+.symbol{
+    position: relative;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.symbol img{
+    width: 180px;
+    height: 180px;
+}
+
+.boxer{
+    color:  white;
+    font-size: 100px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    margin-top: 20px;
+    color:  white;
+    font-size: 70px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset{
+    margin-top: 20px;
+    width: 106px;
+    height: 62px;
+    font-size: 27px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 12%;
+    background: #e9b6dc;
+    padding: 16px;
+}
+#reset:hover{
+    background: rgb(83, 57, 107);
+}
